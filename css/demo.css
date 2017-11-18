@@ -35,6 +35,18 @@ body {
 	color:#BAF572;
 
 }
+#spon{
+	font-family: '33535gillsansmt';
+	background-color:#BAF572;
+	color:black;
+	border-width: 0px;
+	border-radius:3px;
+	
+	padding:10px;
+
+	font-size:28px;
+	text-decoration: none;
+}
 
 a {
 	color: #f0f0f0;

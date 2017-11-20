@@ -235,4 +235,13 @@ a:hover {
 		text-indent: 30px;
 	}
 }
+  ::-moz-selection {
+        background-color: rgba(255, 195, 0,0.7);
+       color: #000;
+}
 
+/* Works in Safari */
+::selection {
+       background-color: rgba(255, 195, 0,0.7);
+       color: #000;
+}

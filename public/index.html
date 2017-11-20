@@ -22,12 +22,16 @@
 				background-position: center;
 				background-size: cover;
 				background-attachment: fixed;
+				-moz-transition: background-image 0.4s ease-in-out;
+				-o-transition: background-image 0.4s ease-in-out;
 				-webkit-transition: background-image 0.4s ease-in-out;
                transition: background-image 0.4s ease-in-out;
 
 		}
 		.bg{
 			background-image: url('images/conc4.jpg');
+			-moz-transition: background-image 0.4s ease-in-out;
+			-o-transition: background-image 0.4s ease-in-out;
 			-webkit-transition: background-image 0.4s ease-in-out;
             transition: background-image 0.4s ease-in-out;
 
@@ -69,12 +73,25 @@
 				text-align:right;
 			}
 			@media (max-width: 480px) {	
-				.bg{
-			background-image: url('images/concmob2.jpg');
-			-webkit-transition: background-image 0.4s ease-in-out;
-            transition: background-image 0.4s ease-in-out;
 
-		}
+
+				body{
+				background-image:url('images/concmob.jpg');
+				background-size: contain;
+				background-repeat: no-repeat;
+					-moz-transition: background-image 0.4s ease-in-out;
+				-o-transition: background-image 0.4s ease-in-out;
+				-webkit-transition: background-image 0.4s ease-in-out;
+            	transition: background-image 0.4s ease-in-out;
+			}	
+				.bg{
+				background-image: url('images/concmob2.jpg');
+				-moz-transition: background-image 0.4s ease-in-out;
+				-o-transition: background-image 0.4s ease-in-out;
+				-webkit-transition: background-image 0.4s ease-in-out;
+            	transition: background-image 0.4s ease-in-out;
+
+				}
 				#social{
 				text-align:left;
 			}
@@ -82,11 +99,7 @@
 				font-size:25px;
 				padding:10px;
 			}
-			body{
-				background-image:url('images/concmob.jpg');
-				background-size: contain;
-				background-repeat: no-repeat;
-			}	
+
 			#landing h1{
 				font-size:8vw;
 
@@ -101,7 +114,8 @@
 			 font-size:10px;
 			}
 			#spon{
-				font-size: 22px;
+				font-size: 18px;
+				padding: 6px;
 			}
 				
 						
